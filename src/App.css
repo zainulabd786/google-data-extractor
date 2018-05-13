@@ -1,0 +1,68 @@
+.extract-form{
+	width: 100%;
+	display: flex;
+    justify-content: center;
+	padding: 20px;
+	border-bottom: 1px solid;
+	border-top: 1px solid;
+	background-color: #1e272e;
+}
+.extract-form input, .extract-form button{
+	border-radius: 0;
+}
+.progress{
+	height: 7px;
+}
+.google-wrapper, .header-text-wrapper, .instruction-container{
+	display: flex;
+}
+.instruction-container{
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+}
+.heading{
+	padding: 9px;
+	font-size: 26px;
+	padding-bottom: 0;
+}
+.eden-sol{
+	font-size: 14px;
+	text-align: right;
+}
+.google-wrapper{
+	font-size: 35px;
+	font-weight: 500;
+}
+.g{
+	color: #4285F4;
+}
+.o{
+	color: #EA4335;
+}
+.o2{
+	color: #FBBC05;
+}
+.g2{
+	color: #4285F4;
+}
+.l{
+	color: #34A853;
+}
+.e{
+	color: #EA4335;
+}
+.navbar{
+	padding: 0;
+}
+.pno{
+	min-width: 170px;
+}
+
+.react-fetch-progress-bar {
+  backgroundColor: red !important;
+  height: 8px !important;
+	position: fixed !important;
+	top: 0 !important;
+	z-index: 9000 !important;
+}
