@@ -7,8 +7,8 @@ import Progress from './Components/ProgressBar';
 
 const URI = 'https://maps.googleapis.com/maps/api/place/textsearch/json?query=';
 const placeURI = 'https://maps.googleapis.com/maps/api/place/details/json?placeid=';
-//const API = '&key=AIzaSyDzUxKLsg0sCmAhZ9AEXwNlDiV2Fjo1a-U';
-const API = '&key=AIzaSyAMM9z9jwxN4LvQ2Vn4iyV4FDw6wQ5CEHI';
+//const API = '&key=XXXXXXXXXXXXXXXXXXXXXXXXX';
+const API = '&key=XXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 class Extractor extends Component {
 
 	getData = (keyword, location, country) => {
